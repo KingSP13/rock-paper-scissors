@@ -2,8 +2,6 @@ let paragraphResult = document.querySelector('.js-result');
 let paragraphMoves = document.querySelector('.js-moves');
 let paragraphScore = document.querySelector('.js-score');
 
-//Estudo de funções, aqui uso as duas formas que poderia ter chamado a função, a forma recomendada usando arrow functions com leitura facilitada, porém eventlisteners não recebem parâmetros, então eu basicamente chamo uma função para chamar uma função, e nessa função final eu incluo o parametro que quero que seja passado, exemplo no botão 'scissors'
-
 document.querySelector('.rock')
 .addEventListener("click", () => {
     playGame('rock')
